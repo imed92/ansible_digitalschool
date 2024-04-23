@@ -1,0 +1,6 @@
+---
+- name: Exécuter un script bash sur le serveur slave
+  hosts: bztmr   # Remplacez par le nom de votre groupe d'hôtes contenant le serveur slave
+  tasks:
+    - name: Exécuter le script bash
+      script: ./test.sh
