@@ -52,8 +52,8 @@
 ## green.example.com
 ## blue.example.com
 
-[bztmr]
-tacousine ansible_ssh_host=ec2-34-226-155-165.compute-1.amazonaws.com
-tacousine ansible_ssh_user=ubuntu
+[aws]
+test ansible_ssh_host=ec2-34-226-155-165.compute-1.amazonaws.com
+test ansible_ssh_user=ubuntu
 ## fonctionne aussi comme ca
-## tacousine ansible_ssh_host=ubuntu@ec2-34-226-155-165.compute-1.amazonaws.com
+## test ansible_ssh_host=ubuntu@ec2-34-226-155-165.compute-1.amazonaws.com
