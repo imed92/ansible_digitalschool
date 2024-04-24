@@ -31,3 +31,8 @@ Apelle le playbook comme tu veux et mets ca dedans :
       script: ./test.sh
 ```
 Et ici le test.sh va s'executer dans le serveur, le test.sh c'est le script qu'on veux executer sur le serveur.
+Ensuite on execute :
+```bash
+ansible-playbook -i hosts install_app.yml
+```
+
